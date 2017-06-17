@@ -1,0 +1,16 @@
+{
+  "name": "replicate-eslint",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Eli Perelman <eli@eliperelman.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "neutrino lint",
+    "eslint": "node_modules/eslint/bin/eslint.js src"
+  },
+  "devDependencies": {
+    "neutrino": "^6.0.2",
+    "neutrino-preset-airbnb-base": "^6.0.2",
+    "neutrino-preset-node": "^6.0.2"
+  }
+}
